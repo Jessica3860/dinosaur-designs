@@ -10,10 +10,11 @@ html {
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 h1, h2 {
+  font-family: "Patua One", sans-serif;
   color: #5d8432;
   text-transform: uppercase;
 }
@@ -25,7 +26,8 @@ figcaption {
 }
 
 nav {
-  font-size: 1.25rem;
+  font-family: "Patua One", sans-serif;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
@@ -38,11 +40,11 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
   color: #b42885;
   text-decoration: underline;
 }
 
-intro {
+.intro {
   font-size: 1rem;
 }
